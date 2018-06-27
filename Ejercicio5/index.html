@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 5 - 6</title>
+
+    <style>
+        body{
+            padding: 0;
+        }
+
+        .header{
+            min-height: 15%;
+            text-align: center;
+            background-color: #00796b;
+            color: white;
+            padding: 15px;
+        }
+
+        .row {
+            clear: both;
+        }
+
+        .col{
+            width: 33%;
+            float: inherit;
+            box-sizing: border-box;
+            display: table-cell;
+            text-align: center;
+            padding: 20px;
+            background-color: #009688;
+            color: white;
+            border-style: solid;
+            border-radius: 20px;
+        }
+        
+        .img-responsive{
+            max-width: 100%;
+        }
+
+        .spacer{
+            height: 5px;
+            width: 100%;
+            background-color: #FFC107;
+        }
+
+        @media (max-width: 1000px) {
+            .col{
+                width: 50%;
+                float: left;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .col{
+                width: 100%;
+                float: left;
+            }
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <header class="header">
+        <h1>HOLA!!</h1>
+        <h2>ESTE ES UN EJERCICIO DE GRILLAS</h2>
+    </header>
+    
+    <div class="spacer"></div>
+
+    <section>
+        <div class="row">
+            <div class="col">
+                <img class="img-responsive" src="http://desafiolatam.com/assets/logo-3ff26b8bc16f0b1debdb52ce25ff224068ade8cc0fc40b062e2cbf6d59d8e3b7.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quam ipsa distinctio, reiciendis voluptas sit aut, cumque placeat blanditiis, rerum maxime. Molestiae, perspiciatis laboriosam modi amet enim sit inventore cupiditate!</p>
+            </div>
+            <div class="col">
+                <img class="img-responsive" src="http://desafiolatam.com/assets/logo-3ff26b8bc16f0b1debdb52ce25ff224068ade8cc0fc40b062e2cbf6d59d8e3b7.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quam ipsa distinctio, reiciendis voluptas sit aut, cumque placeat blanditiis, rerum maxime. Molestiae, perspiciatis laboriosam modi amet enim sit inventore cupiditate!</p>
+            </div>
+            <div class="col">
+                <img class="img-responsive" src="http://desafiolatam.com/assets/logo-3ff26b8bc16f0b1debdb52ce25ff224068ade8cc0fc40b062e2cbf6d59d8e3b7.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quam ipsa distinctio, reiciendis voluptas sit aut, cumque placeat blanditiis, rerum maxime. Molestiae, perspiciatis laboriosam modi amet enim sit inventore cupiditate!</p>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>
